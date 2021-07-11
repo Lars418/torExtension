@@ -8,5 +8,8 @@ modify the corresponding `alt` attribute of images to grant disabled users a bet
 The extension is currently availiable for Chromium browsers. These include Google Chrome, Microsoft Edge, Opera, Brave, 
 Vivaldi and more.
 
+## Translation
+This extension is currently availiable in English and German. Feel free to contribute and add other languages!
+
 ## Installation
 - Chromium (Chrome, MS Edge etc.): https://chrome.google.com/webstore/...
