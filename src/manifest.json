@@ -41,5 +41,9 @@
   "version_name": "0.1 beta",
   "manifest_version": 3,
   "author": "Lars Kölker",
-  "homepage_url": "https://lars.koelker.dev/"
+  "homepage_url": "https://lars.koelker.dev/",
+  "web_accessible_resources": [{
+    "resources": [ "manifest.json", "options/options.html" ],
+    "matches": [ "https://*.koelker.dev/*" ]
+  }]
 }
