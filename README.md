@@ -2,13 +2,13 @@
 
 ## About
 This extension will move transcribed comments of a reddit post to the top. It will also add WAI ARIA attributes and
-modify the corresponding `alt` attribute of images to grant disabled users a better interaction with a post.
+add the `aria-describedby` attribute to the images to grant disabled users a better interaction with a post.
 
-## Support
+## Browser support
 The extension is currently availiable for Chromium browsers. These include Google Chrome, Microsoft Edge, Opera, Brave, 
 Vivaldi and more.
 
-## Translation
+## Translations
 This extension is currently availiable in English and German. Feel free to contribute and add other languages!
 
 ## Installation

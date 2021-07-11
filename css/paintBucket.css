@@ -1,0 +1,55 @@
+:root {
+  --primary: #ff4500;
+  --primary-dark: #d83a00;
+  --secondary: #f2f2f2;
+  --secondary-dark: #cdcdcd;
+  --text: #000;
+  --body: #fff;
+  --btn-background: rgba(214, 214, 214,.25);
+  --btn-background-hover: #c3c3c3;
+  --focus: rgba(24, 116, 195, .3);
+  --warning: #9b050c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --secondary: #7e818c;
+    --secondary-dark: #91939d;
+    --text: #fff;
+    --body: #202124;
+    --btn-background: #292a2d;
+    --btn-background-hover: #47494e;
+    --focus: rgba(255, 255, 255, .3);
+  }
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+*:focus {
+  box-shadow: 0 0 0 3px rgba(0, 125, 250, 0.45);
+  outline: none;
+}
+
+html {
+  width: 100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: var(--text);
+  background-color: var(--body);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=paintBucket.css.map */

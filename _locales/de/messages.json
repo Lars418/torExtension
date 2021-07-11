@@ -3,6 +3,30 @@
     "message": "Transcribers of Reddit"
   },
   "description": {
-    "message": "Barrierefreie Bildbeschreibungen für ausgewählte Subreddits."
+    "message": "Barrierefreie Bildbeschreibungen für Subreddits."
+  },
+
+  "popupManageSettings": {
+    "message": "Einstellungen verwalten"
+  },
+
+  "optionsPageTitle": {
+    "message": "Einstellungen"
+  },
+  "sectionGeneral": {
+    "message": "Generelle Einstellungen"
+  },
+  "sectionAdvanced": {
+    "message": "Erweiterte Einstellungen"
+  },
+  "sectionAdvancedEmpty": {
+    "message": "Es gibt aktuell noch keine erweiterten Einstellungen."
+  },
+
+  "settingBorder": {
+    "message": "Kommentarumrandung anzeigen"
+  },
+  "settingBackground": {
+    "message": "Kommentarhintergrund anzeigen"
   }
 }

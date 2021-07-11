@@ -82,15 +82,24 @@ function moveComments() {
         comments = document.querySelectorAll("[data-reddit-comment-wrapper='true'] > div");
     }
 
-    // I don't expect to have more than one tor translation, that's why the last translation will be used for aria
-    comments.forEach(comment => {
-        if (CommentUtils.isTorComment(comment)) {
-            comment.dataset.torComment = 'true';
-            comment.style.backgroundColor = 'goldenrod';
-            comment.style.order = "-1";
-            applyWaiAria(postContent, comment);
-        }
-    });
+    chrome.storage.local.get('settings', ({ settings }) => {
+        // I don't expect to have more than one tor translation, that's why the last translation will be used for aria
+        comments.forEach(comment => {
+            if (CommentUtils.isTorComment(comment)) {
+                comment.dataset.torComment = 'true';
+                if (settings.background) {
+                    comment.style.backgroundColor = 'var(--newCommunityTheme-buttonAlpha05)';
+                }
+
+                if (settings.border) {
+                    comment.style.outline = '2px solid red';
+                }
+
+                comment.style.order = "-1";
+                applyWaiAria(postContent, comment);
+            }
+        });
+    })
 }
 
 
