@@ -12,7 +12,7 @@ Vivaldi and more.
 This extension is currently availiable in English and German. Feel free to contribute and add other languages!
 
 ## Installation
-- Chromium (Chrome, MS Edge etc.): https://chrome.google.com/webstore/...
+- Chromium (Chrome, MS Edge etc.): [Click here](https://chrome.google.com/webstore/detail/kbogclmbajpkmiffjachinffefobohim/)
 
 ## Credits
 The logo is used with permission from the [r/TranscribersOfReddit](https://www.reddit.com/r/TranscribersOfReddit/) subreddit.
