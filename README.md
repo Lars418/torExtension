@@ -13,3 +13,6 @@ This extension is currently availiable in English and German. Feel free to contr
 
 ## Installation
 - Chromium (Chrome, MS Edge etc.): https://chrome.google.com/webstore/...
+
+## Credits
+The logo is used with permission from the [r/TranscribersOfReddit](https://www.reddit.com/r/TranscribersOfReddit/) subreddit.
