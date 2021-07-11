@@ -39,5 +39,7 @@
   },
   "version": "0.1",
   "version_name": "0.1 beta",
-  "manifest_version": 3
+  "manifest_version": 3,
+  "author": "Lars Kölker",
+  "homepage_url": "https://lars.koelker.dev/"
 }
