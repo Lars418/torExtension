@@ -1,0 +1,32 @@
+{
+  "name": {
+    "message": "Transcribers of Reddit"
+  },
+  "description": {
+    "message": "Accessible image descriptions for subreddits."
+  },
+
+  "popupManageSettings": {
+    "message": "Manage settings"
+  },
+
+  "optionsPageTitle": {
+    "message": "Settings"
+  },
+  "sectionGeneral": {
+    "message": "General settings"
+  },
+  "sectionAdvanced": {
+    "message": "Advanced settings"
+  },
+  "sectionAdvancedEmpty": {
+    "message": "There are currently no advanced options."
+  },
+
+  "settingBorder": {
+    "message": "Show comment border"
+  },
+  "settingBackground": {
+    "message": "Show comment background"
+  }
+}
