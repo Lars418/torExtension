@@ -1,0 +1,32 @@
+{
+  "name": {
+    "message": "Transcribers of Reddit"
+  },
+  "description": {
+    "message": "Descriptions d'images accessibles pour les subreddits."
+  },
+
+  "popupManageSettings": {
+    "message": "Régler les options"
+  },
+
+  "optionsPageTitle": {
+    "message": "Options"
+  },
+  "sectionGeneral": {
+    "message": "Options générales"
+  },
+  "sectionAdvanced": {
+    "message": "Options avancées"
+  },
+  "sectionAdvancedEmpty": {
+    "message": "Il n'y a pas actuellement pas d'options avancées."
+  },
+
+  "settingBorder": {
+    "message": "Afficher la bordure de commentaire"
+  },
+  "settingBackground": {
+    "message": "Afficher le fond de commentaire"
+  }
+}
